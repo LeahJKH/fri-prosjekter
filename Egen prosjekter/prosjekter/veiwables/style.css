@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html,
+body {
+  background: linear-gradient(
+    2deg,
+    rgb(0, 0, 0) 10%,
+    rgb(11, 22, 123) 100%,
+    rgba(0, 0, 0, 1) 30%
+  );
+  min-height: 100%;
+  height: fit-content;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
+li {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.buttonMenu {
+  background-color: rgb(120, 120, 229);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  max-height: 60px;
+}
+.buttonMenu:hover {
+  background-color: rgb(98, 98, 213);
+}
+.divideWZ {
+  height: 10px;
+  margin-top: 300px;
+}
+
+footer {
+  background-color: black;
+  height: 200px;
+  position: relative;
+}
+.jonGt {
+  /* https://smoothshadows.com/#djEsMSwxMCwwLjM3LDI3NSwxNzQsMCwjMDMwNzEyLCNmM2Y0ZjYsI2ZmZmZmZiwy */
+  box-shadow: 0px 2px 3px rgba(3, 7, 18, 0.04),
+    0px 7px 11px rgba(3, 7, 18, 0.07), 0px 16px 25px rgba(3, 7, 18, 0.11),
+    0px 28px 44px rgba(3, 7, 18, 0.15), 0px 44px 69px rgba(3, 7, 18, 0.18),
+    0px 63px 99px rgba(3, 7, 18, 0.22), 0px 85px 135px rgba(3, 7, 18, 0.26),
+    0px 111px 176px rgba(3, 7, 18, 0.3), 0px 141px 223px rgba(3, 7, 18, 0.33),
+    0px 174px 275px rgba(3, 7, 18, 0.37);
+
+  position: absolute;
+  height: 200px;
+  right: 400px;
+}
+.siderBT {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.infobox {
+  border: 2px solid rgb(61, 61, 61);
+  background-color: rgb(83, 83, 83);
+  padding: 20px;
+}
+
+.space {
+  height: 400px;
+}
+#introD {
+  padding: 20px;
+  text-align: center;
+  text-shadow: 0px 0px 3px black;
+}
+
+#mychannel {
+  height: 50px;
+  background-color: blueviolet;
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px black;
+  width: 100px;
+  font-size: 25px;
+}
